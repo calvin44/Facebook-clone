@@ -1,6 +1,6 @@
-import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
+import './App.css'
+import Header from './Header'
+import Sidebar from './Sidebar'
 import Feed from './Feed'
 import Widgets from './Widgets'
 import Login from './Login'

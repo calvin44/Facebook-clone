@@ -3,7 +3,7 @@ export const initialState = {
 }
 
 export const actionTypes = {
-    SET_USER: "SET_USER"
+    SET_USER: "SET_USER",
 }
 
 const reducer = (state,action) => {
@@ -14,9 +14,8 @@ const reducer = (state,action) => {
                 ...state,
                 user: action.user
             }
-
-            default:
-                return state
+        default:
+            return state
     }
 }
 

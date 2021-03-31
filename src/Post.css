@@ -10,7 +10,7 @@
     display: flex;
     position: relative;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
     padding-left: 1rem;
 }
 
@@ -24,10 +24,12 @@
 
 .post__topInfo > h3 {
     font-size: medium;
+    margin-bottom: 0;
 }
 
 .post__topInfo > p {
     font-size: small;
+    margin-top: 5px;
     color: grey;
 }
 

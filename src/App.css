@@ -1,5 +1,10 @@
+* {
+  font-size: medium;
+}
+
 .app {
   background-color: #f1f2f5;
+  /* overflow: auto; */
 }
 
 .app__body {
